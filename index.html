@@ -5,36 +5,768 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Emmanuella | Frontend Developer</title>
+  <title>Emmanuella Chinweze | Frontend Developer</title>
 
-  <link rel="stylesheet" href="./style.css">
+  <meta
+    name="description"
+    content="Emmanuella Chinweze - Frontend Developer creating modern, responsive and user-friendly web experiences."
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
 </head>
 
 <body>
 
-  <section class="hero">
+  <!-- ================= NAVIGATION ================= -->
 
-    <div class="content">
+  <header class="navbar">
 
-      <p class="role">FRONTEND DEVELOPER</p>
+    <div class="nav-container">
 
-      <h1>
-        Hi, I'm
-        <span>Emmanuella</span>
-      </h1>
-
-      <p class="description">
-        I build responsive, modern and beautiful
-        web experiences that people enjoy using.
-      </p>
-
-      <a href="#" class="button">
-        View My Projects
+      <a href="#home" class="logo">
+        EC<span>.</span>
       </a>
+
+      <nav class="nav-links">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+      </nav>
+
+      <a href="#contact" class="nav-button">
+        Let's Talk
+      </a>
+
+      <button class="menu-button" id="menuButton">
+        ☰
+      </button>
 
     </div>
 
-  </section>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          <p class="hero-label">
+            FRONTEND DEVELOPER
+          </p>
+
+          <h1>
+            Hi, I'm
+            <span>Emmanuella.</span>
+          </h1>
+
+          <p class="hero-description">
+            I build modern, responsive and engaging web
+            experiences that turn ideas into digital products.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#projects" class="primary-button">
+              View My Projects
+              <span>→</span>
+            </a>
+
+            <a href="#contact" class="secondary-button">
+              Contact Me
+            </a>
+
+          </div>
+
+          <div class="social-links">
+
+            <a href="#" aria-label="GitHub">
+              GitHub
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+              LinkedIn
+            </a>
+
+            <a href="#" aria-label="Email">
+              Email
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- HERO VISUAL -->
+
+        <div class="hero-visual">
+
+          <div class="glow"></div>
+
+          <div class="code-card">
+
+            <div class="code-top">
+
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+
+            </div>
+
+            <div class="code-content">
+
+              <p>
+                <span class="purple">const</span>
+                developer =
+                <span class="blue">"Emmanuella"</span>;
+              </p>
+
+              <p>
+                <span class="purple">const</span>
+                skills = [
+              </p>
+
+              <p class="indent">
+                <span class="green">"HTML"</span>,
+              </p>
+
+              <p class="indent">
+                <span class="green">"CSS"</span>,
+              </p>
+
+              <p class="indent">
+                <span class="green">"JavaScript"</span>,
+              </p>
+
+              <p class="indent">
+                <span class="green">"React"</span>
+              </p>
+
+              <p>
+                ];
+              </p>
+
+              <p>
+                <span class="purple">return</span>
+                <span class="blue">"Let's build!"</span>;
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section" id="about">
+
+      <div class="section-container">
+
+        <div class="section-heading">
+
+          <p class="section-label">
+            ABOUT ME
+          </p>
+
+          <h2>
+            Turning ideas into
+            <span>digital experiences.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="about-content">
+
+          <div class="about-text">
+
+            <p>
+              I'm Emmanuella, a frontend developer passionate
+              about creating modern, responsive and user-friendly
+              websites.
+            </p>
+
+            <p>
+              I enjoy transforming designs and ideas into
+              functional digital experiences that look great
+              across phones, tablets and desktops.
+            </p>
+
+            <p>
+              I'm constantly learning new technologies and
+              improving my ability to create better experiences
+              for users.
+            </p>
+
+          </div>
+
+
+          <div class="stats">
+
+            <div class="stat">
+
+              <strong>05+</strong>
+
+              <span>
+                Projects
+              </span>
+
+            </div>
+
+            <div class="stat">
+
+              <strong>10+</strong>
+
+              <span>
+                Technologies
+              </span>
+
+            </div>
+
+            <div class="stat">
+
+              <strong>100%</strong>
+
+              <span>
+                Passion
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="skills section" id="skills">
+
+      <div class="section-container">
+
+        <div class="section-heading centered">
+
+          <p class="section-label">
+            MY SKILLS
+          </p>
+
+          <h2>
+            Technologies I
+            <span>work with.</span>
+          </h2>
+
+          <p>
+            Tools and technologies I use to build modern
+            web experiences.
+          </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              &lt;/&gt;
+            </div>
+
+            <h3>
+              HTML5
+            </h3>
+
+            <p>
+              Building semantic and accessible web structures.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              #
+            </div>
+
+            <h3>
+              CSS3
+            </h3>
+
+            <p>
+              Creating beautiful responsive layouts and designs.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              JS
+            </div>
+
+            <h3>
+              JavaScript
+            </h3>
+
+            <p>
+              Adding functionality and interactivity to websites.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              R
+            </div>
+
+            <h3>
+              React
+            </h3>
+
+            <p>
+              Building reusable and interactive user interfaces.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              G
+            </div>
+
+            <h3>
+              Git
+            </h3>
+
+            <p>
+              Managing code and collaborating on projects.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card">
+
+            <div class="skill-icon">
+              F
+            </div>
+
+            <h3>
+              Figma
+            </h3>
+
+            <p>
+              Turning design concepts into functional websites.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="projects section" id="projects">
+
+      <div class="section-container">
+
+        <div class="section-heading">
+
+          <p class="section-label">
+            MY WORK
+          </p>
+
+          <h2>
+            Featured
+            <span>projects.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+          <!-- PROJECT 1 -->
+
+          <article class="project-card">
+
+            <div class="project-image project-one">
+
+              <div class="project-window">
+
+                <div class="window-top">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+                <div class="fake-content">
+
+                  <div class="fake-title"></div>
+
+                  <div class="fake-line"></div>
+                  <div class="fake-line short"></div>
+
+                  <div class="fake-boxes">
+
+                    <div></div>
+                    <div></div>
+                    <div></div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <p class="project-category">
+                WEB DEVELOPMENT
+              </p>
+
+              <h3>
+                Business Landing Page
+              </h3>
+
+              <p>
+                A clean and responsive landing page designed
+                for a modern business.
+              </p>
+
+              <div class="project-tech">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+              </div>
+
+              <a href="#" class="project-link">
+                View Project →
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- PROJECT 2 -->
+
+          <article class="project-card">
+
+            <div class="project-image project-two">
+
+              <div class="shop-preview">
+
+                <div class="shop-header"></div>
+
+                <div class="shop-products">
+
+                  <div></div>
+                  <div></div>
+                  <div></div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <p class="project-category">
+                E-COMMERCE
+              </p>
+
+              <h3>
+                Online Store
+              </h3>
+
+              <p>
+                A responsive shopping experience with product
+                cards, categories and interactive elements.
+              </p>
+
+              <div class="project-tech">
+
+                <span>React</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+              </div>
+
+              <a href="#" class="project-link">
+                View Project →
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- PROJECT 3 -->
+
+          <article class="project-card">
+
+            <div class="project-image project-three">
+
+              <div class="dashboard-preview">
+
+                <div class="dashboard-sidebar"></div>
+
+                <div class="dashboard-main">
+
+                  <div class="dashboard-cards">
+
+                    <div></div>
+                    <div></div>
+                    <div></div>
+
+                  </div>
+
+                  <div class="chart"></div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="project-info">
+
+              <p class="project-category">
+                WEB APPLICATION
+              </p>
+
+              <h3>
+                Analytics Dashboard
+              </h3>
+
+              <p>
+                A modern dashboard interface for displaying
+                data and business analytics.
+              </p>
+
+              <div class="project-tech">
+
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+
+              </div>
+
+              <a href="#" class="project-link">
+                View Project →
+              </a>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section class="experience section">
+
+      <div class="section-container">
+
+        <div class="section-heading centered">
+
+          <p class="section-label">
+            MY JOURNEY
+          </p>
+
+          <h2>
+            Learning,
+            <span>building & growing.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div>
+
+              <p class="timeline-date">
+                2026
+              </p>
+
+              <h3>
+                Frontend Development
+              </h3>
+
+              <p>
+                Building responsive websites and strengthening
+                my skills in HTML, CSS, JavaScript and React.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div>
+
+              <p class="timeline-date">
+                Present
+              </p>
+
+              <h3>
+                Building Real Projects
+              </h3>
+
+              <p>
+                Creating practical projects and developing
+                a strong portfolio of work.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact section" id="contact">
+
+      <div class="contact-container">
+
+        <p class="section-label">
+          GET IN TOUCH
+        </p>
+
+        <h2>
+          Let's build something
+          <span>great together.</span>
+        </h2>
+
+        <p>
+          Have a project in mind or want to work together?
+          I'd love to hear from you.
+        </p>
+
+        <a
+          href="mailto:your@email.com"
+          class="primary-button"
+        >
+          Send Me an Email →
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div>
+
+        <a href="#home" class="logo">
+          EC<span>.</span>
+        </a>
+
+        <p>
+          Frontend Developer creating modern
+          digital experiences.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+      © 2026 Emmanuella Chinweze.
+      All rights reserved.
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
 
 </body>
 
