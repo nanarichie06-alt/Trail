@@ -1277,3 +1277,9 @@ a {
 
   border: 5px solid #080914;
 }
+.email {
+  color: #7655ff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
